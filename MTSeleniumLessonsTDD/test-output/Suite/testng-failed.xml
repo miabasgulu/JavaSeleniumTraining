@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.homework.selenium.automation.GeneralTesting">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testSearchRose"/>
+        </methods>
+      </class> <!-- com.homework.selenium.automation.GeneralTesting -->
+      <class name="com.homework.selenium.automation.HomeworkWeek4Second">
+        <methods>
+          <include name="automateMortgageCalculate"/>
+          <include name="beforeAllMethod"/>
+          <include name="afterAllMethod"/>
+        </methods>
+      </class> <!-- com.homework.selenium.automation.HomeworkWeek4Second -->
+      <class name="com.calculator.automation.CalculatorTests">
+        <methods>
+          <include name="mortgageCalculatorTestsForUsDollar"/>
+          <include name="beforeEachMethod"/>
+          <include name="setUp"/>
+          <include name="afterEachMethod"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- com.calculator.automation.CalculatorTests -->
+      <class name="com.homework.selenium.automation.HomeworkForWeek4">
+        <methods>
+          <include name="outomateMortgageWebsite"/>
+        </methods>
+      </class> <!-- com.homework.selenium.automation.HomeworkForWeek4 -->
+      <class name="com.calculator.automation.Testing">
+        <methods>
+          <include name="beforeEveryTest"/>
+          <include name="testing1"/>
+          <include name="afterEachTest"/>
+        </methods>
+      </class> <!-- com.calculator.automation.Testing -->
+      <class name="com.test.gmail.GmailTests">
+        <methods>
+          <include name="beforeEachTest"/>
+          <include name="sendingEmail"/>
+          <include name="beforeAllTests"/>
+          <include name="receivingEmail"/>
+          <include name="afterAllTests"/>
+          <include name="afterEachtest"/>
+        </methods>
+      </class> <!-- com.test.gmail.GmailTests -->
+      <class name="com.costco.automate.AutomateCostcoWebsite">
+        <methods>
+          <include name="beforeEachTest"/>
+          <include name="afterEachTest"/>
+          <include name="costcoWebsiteTest2"/>
+        </methods>
+      </class> <!-- com.costco.automate.AutomateCostcoWebsite -->
+      <class name="com.united.test.AutomateUnitedWebsite">
+        <methods>
+          <include name="beforeEachTest"/>
+          <include name="unitedTest"/>
+          <include name="beforeAllTests"/>
+          <include name="afterAllTests"/>
+          <include name="afterEachtest"/>
+        </methods>
+      </class> <!-- com.united.test.AutomateUnitedWebsite -->
+      <class name="com.calculator.automation.BrowserCommands">
+        <methods>
+          <include name="afterEveryTest"/>
+          <include name="testing1"/>
+          <include name="beforeEachTest"/>
+        </methods>
+      </class> <!-- com.calculator.automation.BrowserCommands -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

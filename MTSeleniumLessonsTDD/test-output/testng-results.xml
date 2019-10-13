@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13223" started-at="2018-12-05T06:39:55Z" finished-at="2018-12-05T06:40:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13223" started-at="2018-12-05T06:39:55Z" finished-at="2018-12-05T06:40:09Z">
+      <class name="MealB">
+        <test-method status="PASS" signature="beforeAllTests()[pri:0, instance:MealB@59f99ea]" name="beforeAllTests" is-config="true" duration-ms="16" started-at="2018-12-05T06:39:55Z" finished-at="2018-12-05T06:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllTests -->
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:MealB@59f99ea]" name="beforeEachTest" is-config="true" duration-ms="4123" started-at="2018-12-05T06:39:55Z" finished-at="2018-12-05T06:40:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="mealBTest()[pri:0, instance:MealB@59f99ea]" name="mealBTest" duration-ms="3287" started-at="2018-12-05T06:40:00Z" finished-at="2018-12-05T06:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mealBTest -->
+        <test-method status="PASS" signature="afterEachtest(org.testng.ITestResult)[pri:0, instance:MealB@59f99ea]" name="afterEachtest" is-config="true" duration-ms="5760" started-at="2018-12-05T06:40:03Z" finished-at="2018-12-05T06:40:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mealBTest status=SUCCESS method=MealB.mealBTest()[pri:0, instance:MealB@59f99ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachtest -->
+        <test-method status="PASS" signature="afterAllTests()[pri:0, instance:MealB@59f99ea]" name="afterAllTests" is-config="true" duration-ms="1" started-at="2018-12-05T06:40:09Z" finished-at="2018-12-05T06:40:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTests -->
+      </class> <!-- MealB -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

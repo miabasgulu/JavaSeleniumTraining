@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.costco.automate.AutomateCostcoWebsite"/>
+      <class name="com.calculator.automation.CalculatorTests"/>
+      <class name="com.geico.com.GeicoCom"/>
+      <class name="com.test.gmail.GmailTests"/>
+      <class name="com.homework.selenium.automation.HomeworkWeek4Second"/>
+      <class name="com.homework.selenium.automation.HomeworkForWeek4"/>
+      <class name="com.calculator.automation.BrowserCommands"/>
+      <class name="com.united.test.AutomateUnitedWebsite"/>
+      <class name="com.thegreatcourses.tests.BuyOurnightskyCourseTest"/>
+      <class name="com.homework.selenium.automation.GeneralTesting"/>
+      <class name="com.calculator.automation.Testing"/>
+      <class name="com.thegreate.courses.BuyACourse"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
